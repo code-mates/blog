@@ -19,5 +19,3 @@ email varchar(255) NOT NULL,
 password char(128) NOT NULL,
 /* char(128) chosen for "password" to contain all of the 512 bits used in SHA-512 encryption, and should be enough if a lesser method is chosen */
 );
-
-
