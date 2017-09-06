@@ -20,4 +20,3 @@ password char(255) NOT NULL,
 /* char(255) chosen for "password" to contain all of the 512 bits used in SHA-512 encryption, and is suggested in the PHP manual as 'a good choice' as it is flexible enough to satisfy the PASSWORD_DEFAULT algorithm as it changes over time */
 );
 
-
