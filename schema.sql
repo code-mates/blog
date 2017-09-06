@@ -15,8 +15,15 @@ firstName varchar(30) NOT NULL,
 lastName varchar(30) NOT NULL,
 /* same as above - 30 characters max, set with varchar as data type */
 email varchar(255) NOT NULL,
+<<<<<<< HEAD
 /* email set to 255 characters in varchar - this should cover for people with massive emails, and possibly the hashing of emails in the future */
 password char(255) NOT NULL,
 /* char(255) chosen for "password" to contain all of the 512 bits used in SHA-512 encryption, and is suggested in the PHP manual as 'a good choice' as it is flexible enough to satisfy the PASSWORD_DEFAULT algorithm as it changes over time */
 );
 
+=======
+/* email set to 255 characters in varchar - this will (hopefully) cover for people with massive emails, and possibly the hashing of emails in the future */
+password char(128) NOT NULL,
+/* char(128) chosen for "password" to contain all of the 512 bits used in SHA-512 encryption, and should be enough if a lesser method is chosen */
+);
+>>>>>>> 9a68463f3312e215e006dc3398095d966d123a7f
