@@ -1,0 +1,5 @@
+What was the highest original price in the Dillard’s database of the item with SKU 3631365?
+
+SELECT TOP 1 orgprice FROM ua_dillards.trnsact WHERE SKU = 3631365;  
+
+Answer: Orgprice 17:50
