@@ -1,26 +1,28 @@
 <?php
 session_start();
-/* DATABASE CONFIGURATION */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'username');
-define('DB_PASSWORD', 'password');
-define('DB_DATABASE', 'databasename');
-define("BASE_URL", "http://192.168.1.1/login.php"); //change to real address later
+define('conString', 'mysql:host=localhost;dbname=user');
+define('dbUser', 'ubuntu');
+define('dbPass', 'verystrongpassword');
 
-function getDB()
-{
-	$dbhost=DB_SERVER;
-	$dbuser=DB_USERNAME;
-	$dbpass=DB_PASSWORD;
-	$dbname=DB_DATABASE;
-	try {
-		$dbConnection = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
-		$dbConnection->exec("set names utf8");
-		$dbConnection->SetAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		return $dbConnection;
-	}
-	catch (PDOException $e) {
-		echo 'Connection failed: ' . $e->getMessage();
-	}
-}
+define('userfile', 'user.php');
+define('loginfile', 'login.php');
+define('activatefile', 'activate.php');
+define('registerfile', 'register.php');
+
+//template files
+define('indexHead', 'inc/indexhead.htm');
+define('indexTop', 'inc/indextop.htm');
+define('loginForm', 'inc/loginform.php');
+define('activationForm', 'inc/activationform.php');
+define('indexMiddle', 'inc/indexmiddle.htm');
+define('registerForm', 'inc/registerform.php');
+define('indexFooter', 'inc/indexfooter.htm');
+define('userPage', 'inc/userpage.php');
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$user = new User();
+$user->dbConnect(conString, dbUser, dbPass);
 ?>
