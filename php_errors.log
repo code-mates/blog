@@ -1,0 +1,411 @@
+[27-Sep-2017 17:25:54 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 255
+[27-Sep-2017 17:25:54 UTC] PHP Stack trace:
+[27-Sep-2017 17:25:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:0
+[27-Sep-2017 17:25:54 UTC] PHP   2. User->registration() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:10
+[27-Sep-2017 17:25:54 UTC] PHP   3. User->checkEmail() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:97
+[27-Sep-2017 17:27:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 255
+[27-Sep-2017 17:27:38 UTC] PHP Stack trace:
+[27-Sep-2017 17:27:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:0
+[27-Sep-2017 17:27:38 UTC] PHP   2. User->registration() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:10
+[27-Sep-2017 17:27:38 UTC] PHP   3. User->checkEmail() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:97
+[27-Sep-2017 17:28:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 255
+[27-Sep-2017 17:28:20 UTC] PHP Stack trace:
+[27-Sep-2017 17:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:0
+[27-Sep-2017 17:28:20 UTC] PHP   2. User->registration() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:10
+[27-Sep-2017 17:28:20 UTC] PHP   3. User->checkEmail() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:97
+[27-Sep-2017 17:28:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 255
+[27-Sep-2017 17:28:28 UTC] PHP Stack trace:
+[27-Sep-2017 17:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:0
+[27-Sep-2017 17:28:28 UTC] PHP   2. User->registration() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/register.php:10
+[27-Sep-2017 17:28:28 UTC] PHP   3. User->checkEmail() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:97
+[27-Sep-2017 18:22:45 UTC] PHP Warning:  include(../git_folder/blog/blog/index.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 18:22:45 UTC] PHP Stack trace:
+[27-Sep-2017 18:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:22:45 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:22:45 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:22:45 UTC] PHP Warning:  include(): Failed opening '../git_folder/blog/blog/index.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 18:22:45 UTC] PHP Stack trace:
+[27-Sep-2017 18:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:22:45 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:22:45 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:23:44 UTC] PHP Fatal error:  Cannot redeclare class User in /home/ubuntu/workspace/guestbook/travis/git_folder/blog/blog/class/user.php on line 6
+[27-Sep-2017 18:23:44 UTC] PHP Stack trace:
+[27-Sep-2017 18:23:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:23:44 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:23:44 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:23:44 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 18:31:56 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/git_folder/blog/blog/index.php on line 7
+[27-Sep-2017 18:31:56 UTC] PHP Stack trace:
+[27-Sep-2017 18:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:31:56 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:31:56 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:31:56 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 18:31:56 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/git_folder/blog/blog/index.php on line 7
+[27-Sep-2017 18:31:56 UTC] PHP Stack trace:
+[27-Sep-2017 18:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:31:56 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:31:56 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:31:56 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 18:41:59 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/git_folder/blog/blog/index.php on line 7
+[27-Sep-2017 18:41:59 UTC] PHP Stack trace:
+[27-Sep-2017 18:41:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:41:59 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:41:59 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:41:59 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 18:41:59 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/git_folder/blog/blog/index.php on line 7
+[27-Sep-2017 18:41:59 UTC] PHP Stack trace:
+[27-Sep-2017 18:41:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 18:41:59 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 18:41:59 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 18:41:59 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:09:19 UTC] PHP Notice:  Use of undefined constant landingHead - assumed 'landingHead' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 340
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(landingHead): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:340
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(): Failed opening 'landingHead' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:340
+[27-Sep-2017 19:09:19 UTC] PHP Notice:  Use of undefined constant landingTop - assumed 'landingTop' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 348
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(landingTop): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:348
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(): Failed opening 'landingTop' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:348
+[27-Sep-2017 19:09:19 UTC] PHP Notice:  Use of undefined constant landingMiddle - assumed 'landingMiddle' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 372
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(landingMiddle): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:372
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(): Failed opening 'landingMiddle' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:372
+[27-Sep-2017 19:09:19 UTC] PHP Notice:  Use of undefined constant landingFooter - assumed 'landingFooter' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 388
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(landingFooter): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:388
+[27-Sep-2017 19:09:19 UTC] PHP Warning:  include(): Failed opening 'landingFooter' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[27-Sep-2017 19:09:19 UTC] PHP Stack trace:
+[27-Sep-2017 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:09:19 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[27-Sep-2017 19:09:19 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:388
+[27-Sep-2017 19:11:52 UTC] PHP Fatal error:  Call to undefined method User::landingHead() in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php on line 4
+[27-Sep-2017 19:11:52 UTC] PHP Stack trace:
+[27-Sep-2017 19:11:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[27-Sep-2017 19:12:49 UTC] PHP Warning:  require_once(class/user.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 2
+[27-Sep-2017 19:12:49 UTC] PHP Stack trace:
+[27-Sep-2017 19:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:12:49 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:12:49 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:12:49 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:12:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'class/user.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 2
+[27-Sep-2017 19:12:49 UTC] PHP Stack trace:
+[27-Sep-2017 19:12:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:12:49 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:12:49 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:12:49 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:28 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:28 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:28 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:28 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:28 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:28 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:28 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:28 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:28 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:28 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:29 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:29 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:29 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:29 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:29 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:29 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:29 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:29 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:29 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:29 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:55 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:55 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:55 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:55 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:55 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 19:14:55 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 19:14:55 UTC] PHP Stack trace:
+[27-Sep-2017 19:14:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 19:14:55 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 19:14:55 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 19:14:55 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:33:02 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:33:02 UTC] PHP Stack trace:
+[27-Sep-2017 20:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:33:02 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:33:02 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:33:02 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:33:02 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:33:02 UTC] PHP Stack trace:
+[27-Sep-2017 20:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:33:02 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:33:02 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:33:02 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:44:11 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:44:11 UTC] PHP Stack trace:
+[27-Sep-2017 20:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:44:11 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:44:11 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:44:11 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:44:11 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:44:11 UTC] PHP Stack trace:
+[27-Sep-2017 20:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:44:11 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:44:11 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:44:11 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:55 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:55 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:55 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:55 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:55 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:55 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:55 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:55 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:55 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:56 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:56 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:56 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:56 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:56 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:56 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:56 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:56 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:56 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:57 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:57 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:57 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:57 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:57 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:57 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:57 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:57 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:57 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:58 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:58 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:58 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:58 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:58 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[27-Sep-2017 20:55:58 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[27-Sep-2017 20:55:58 UTC] PHP Stack trace:
+[27-Sep-2017 20:55:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[27-Sep-2017 20:55:58 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[27-Sep-2017 20:55:58 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[27-Sep-2017 20:55:58 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 13:15:41 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 13:15:41 UTC] PHP Stack trace:
+[28-Sep-2017 13:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 13:15:41 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 13:15:41 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[28-Sep-2017 13:15:41 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 13:15:41 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 13:15:41 UTC] PHP Stack trace:
+[28-Sep-2017 13:15:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 13:15:41 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 13:15:41 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:400
+[28-Sep-2017 13:15:41 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 16:30:24 UTC] PHP Notice:  Use of undefined constant landingHead - assumed 'landingHead' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 340
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(landingHead): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:340
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(): Failed opening 'landingHead' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingHead() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:4
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:340
+[28-Sep-2017 16:30:24 UTC] PHP Notice:  Use of undefined constant landingTop - assumed 'landingTop' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 355
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(landingTop): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:355
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(): Failed opening 'landingTop' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingTop() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:5
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:355
+[28-Sep-2017 16:30:24 UTC] PHP Notice:  Use of undefined constant landingMiddle - assumed 'landingMiddle' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 386
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(landingMiddle): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:386
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(): Failed opening 'landingMiddle' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingMiddle() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:8
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:386
+[28-Sep-2017 16:30:24 UTC] PHP Notice:  Use of undefined constant landingFooter - assumed 'landingFooter' in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 409
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(landingFooter): failed to open stream: No such file or directory in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:409
+[28-Sep-2017 16:30:24 UTC] PHP Warning:  include(): Failed opening 'landingFooter' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 331
+[28-Sep-2017 16:30:24 UTC] PHP Stack trace:
+[28-Sep-2017 16:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:0
+[28-Sep-2017 16:30:24 UTC] PHP   2. User->landingFooter() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/landing.php:10
+[28-Sep-2017 16:30:24 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:409
+[28-Sep-2017 16:36:01 UTC] PHP Notice:  Undefined variable: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 16:36:01 UTC] PHP Stack trace:
+[28-Sep-2017 16:36:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 16:36:01 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 16:36:01 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 16:36:01 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 16:36:01 UTC] PHP Fatal error:  Call to a member function indexHead() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 16:36:01 UTC] PHP Stack trace:
+[28-Sep-2017 16:36:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 16:36:01 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 16:36:01 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 16:36:01 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php on line 4
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php on line 425
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 6
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 6
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 48
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 48
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 57
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 69
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 70
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP Notice:  Undefined index: user in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 71
+[28-Sep-2017 17:41:05 UTC] PHP Stack trace:
+[28-Sep-2017 17:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:0
+[28-Sep-2017 17:41:05 UTC] PHP   2. User->userPage() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/user.php:5
+[28-Sep-2017 17:41:05 UTC] PHP   3. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:428
+[28-Sep-2017 17:41:05 UTC] PHP   4. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 17:41:05 UTC] PHP   5. User->render() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:8
+[28-Sep-2017 17:41:05 UTC] PHP   6. include() /home/ubuntu/workspace/guestbook/travis/Secure_Login/class/user.php:331
+[28-Sep-2017 19:15:28 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 19:15:28 UTC] PHP Stack trace:
+[28-Sep-2017 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[28-Sep-2017 19:20:20 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 19:20:20 UTC] PHP Stack trace:
+[28-Sep-2017 19:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[28-Sep-2017 19:22:15 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 19:22:15 UTC] PHP Stack trace:
+[28-Sep-2017 19:22:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[28-Sep-2017 19:48:55 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[28-Sep-2017 19:48:55 UTC] PHP Stack trace:
+[28-Sep-2017 19:48:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[29-Sep-2017 15:07:35 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[29-Sep-2017 15:07:35 UTC] PHP Stack trace:
+[29-Sep-2017 15:07:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[29-Sep-2017 15:43:16 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[29-Sep-2017 15:43:16 UTC] PHP Stack trace:
+[29-Sep-2017 15:43:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
+[29-Sep-2017 15:44:05 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php on line 7
+[29-Sep-2017 15:44:05 UTC] PHP Stack trace:
+[29-Sep-2017 15:44:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/index.php:0
