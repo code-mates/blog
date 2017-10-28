@@ -9,6 +9,8 @@ $body=$_POST['bodyfield'];
 $data = "UPDATE `article` SET title='$Title', body='$Body' WHERE article_ID=".'"'.$Key.'"';
   $query = mysqli_query($data) or die("Couldn't execute query. ". mysqli_error());
 
+// header('Location: article-list.php');
+
 ?>
 
 <!DOCTYPE HTML>
