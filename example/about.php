@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+require_once '../class/user.php';
+require_once 'config.php';
+$SessionUserFullName = $_SESSION['user']['fname'].' '.$_SESSION['user']['lname'];
+$SessionUserEmail = $_SESSION['user']['email'];
+?>
 <html lang="en">
 
   <head>
@@ -42,7 +48,7 @@
               <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.php">Sample Post</a>
+              <a class="nav-link" href="article_create.php">New Post</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>

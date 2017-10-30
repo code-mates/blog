@@ -1,0 +1,16 @@
+[13-Oct-2017 17:45:24 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 62
+[13-Oct-2017 17:45:24 UTC] PHP Stack trace:
+[13-Oct-2017 17:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:0
+[13-Oct-2017 17:45:24 UTC] PHP   2. test() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:71
+[13-Oct-2017 17:46:09 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 62
+[13-Oct-2017 17:46:09 UTC] PHP Stack trace:
+[13-Oct-2017 17:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:0
+[13-Oct-2017 17:46:09 UTC] PHP   2. test() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:71
+[13-Oct-2017 17:46:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 62
+[13-Oct-2017 17:46:15 UTC] PHP Stack trace:
+[13-Oct-2017 17:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:0
+[13-Oct-2017 17:46:15 UTC] PHP   2. test() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:71
+[13-Oct-2017 17:55:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php on line 64
+[13-Oct-2017 17:55:09 UTC] PHP Stack trace:
+[13-Oct-2017 17:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:0
+[13-Oct-2017 17:55:09 UTC] PHP   2. test() /home/ubuntu/workspace/guestbook/travis/Secure_Login/example/inc/indextop.php:72

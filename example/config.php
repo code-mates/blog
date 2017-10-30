@@ -1,6 +1,7 @@
 <?php
 session_start();
 define('conString', 'mysql:host=localhost;dbname=login');
+define('artString', 'mysql:host=localhost;dbname=cm_blog');
 define('dbUser', 'ubuntu');
 define('dbPass', 'verystrongpassword');
 
@@ -25,6 +26,9 @@ define('indexHead', 'inc/indexhead.htm');
 define('indexTop', 'inc/indextop.php');
 define('indexMiddle', 'inc/indexmiddle.htm');
 define('indexFooter', 'inc/indexfooter.htm');
+
+//template ARTICLE (post creation) files
+define('articleFooter', 'inc/articlefooter.php');
 
 //define('userPage', 'inc/userpage.php');
 define('userPage', 'index.php');

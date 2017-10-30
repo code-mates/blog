@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<!-- If the session does not have a 'user' display this -->
+<?php
+require_once '../class/user.php';
+require_once 'config.php';
+$SessionUserFullName = $_SESSION['user']['fname'].' '.$_SESSION['user']['lname'];
+$SessionUserEmail = $_SESSION['user']['email'];
+
+
+?>
+<?php //if ( !isset($_SESSION['user']) ): ?>
+<!--	<h5 class="navbar-brand">Welcome Guest</h5> -->
+<?php //else: ?>
+<!-- If they do, now look for the user.fname etc -->
+<!--	<h5 class="navbar-brand">Welcome <?php //print $_SESSION['user']['fname'].' '.$_SESSION['user']['lname']." (<i><u>".$_SESSION['user']['email']."</u></i>)"; ?></h5> -->
+<?php //endif; ?>
+
+
 <html lang="en">
 
   <head>
@@ -9,6 +26,8 @@
     <meta name="author" content="">
 
     <title>Code-mates Blog - Post Page</title>
+    
+    
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +43,12 @@
   </head>
 
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <!-- <a class="navbar-brand" href="user.php">Start Bootstrap</a> -->
-        <h5 class="navbar-brand">Welcome <?php print $_SESSION['user']['fname'].' '.$_SESSION['user']['lname']." (<i><u>".$_SESSION['user']['email']."</u></i>)"; ?></h5>
+        <h5 class="navbar-brand">Welcome <?php print $SessionUserFullName . ' (<i><u>' . $SessionUserEmail . '</u></i>)'; ?></h5>
+        <!-- <h5 class="navbar-brand">Welcome <?php print $_SESSION['user']['fname'].' '.$_SESSION['user']['lname']." (<i><u>".$_SESSION['user']['email']."</u></i>)"; ?></h5> -->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -43,7 +62,7 @@
               <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.php">Sample Post</a>
+              <a class="nav-link" href="article_create.php">New Post</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
@@ -53,8 +72,72 @@
       </div>
     </nav>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/post1-bg.jpg')">
+    <!---------| Page Header |-------->
+    <?php
+  	//variable print test:
+      //echo $_GET['article_id'];
+      //echo $_GET['title'];
+      //echo $_GET['subtitle'];
+      
+    // SQL Variables
+    $artID = $_GET['article_id'];
+    $userArticle = 'mysql:host=localhost;dbname=cm_blog';
+		$uName = 'ubuntu';
+		$pWord = 'verystrongpassword';
+
+		// Attempt MySQL server connection; defaults from tutorial changed to reflect test server credentials
+		try{
+			$articleQueryConnect = new PDO($userArticle, $uName, $pWord);
+			$articleQueryConnect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		}catch(PDOException $e){
+			die("ERROR: No connecty. " . $e->getMessage());
+		}
+
+  	try{
+			// left join ARTICLE and USER tables
+			$articleQuery = "SELECT article.*, user.* FROM article LEFT JOIN user ON (article.author_user_id = user.user_id) WHERE article_id=" . $artID;
+			//--------->    $imgQuery = "SELECT * from images ORDER BY id DESC LIMIT 1";   <---Reference; DO NOT DELETE
+			$result = $articleQueryConnect->query($articleQuery);
+			
+			while($row = $result->fetch()) {
+			 $image_url = 'uploads/'.$row['img_name'];
+			 echo '<header class="masthead" style="background-image: url('.$image_url.')">';
+			    echo '<div class="container">';
+			      echo '<div class="row">';
+			        echo '<div class="col-lg-8 col-md-10 mx-auto">';
+			          echo '<div class="post-heading">';
+			            echo '<h1 class="h1_header">' . $row['title'] . '</h1>';
+			            echo '<h2 class="subheading">' . $row['subtitle'] . '</h2>';
+			            echo '<span class="meta">Posted by
+                    <a href="#"><b>' . $row['name'] . '</b></a>';
+                  echo ' on <b>' . $row['publish_date'] . '</b></span>';
+                echo '</div>';
+              echo '</div>';
+            echo '</div>';
+          echo '</div>';
+        echo '</header>';
+        
+        // Post Content
+        echo '<article>';
+          echo '<div class="container">';
+            echo '<div class="row">';
+              echo '<div class="col-lg-8 col-md-10 mx-auto">';
+                echo '<div class="body">';
+                  echo $row['body'];
+                echo '</div>';
+              echo '</div>';
+            echo '</div>';
+          echo '</div>';
+        echo '</article>';
+			  }
+			  unset($result);
+      } catch(PDOException $e){
+						die("ERROR: Not ableness in executicutiving $articleQuery. " . $e->getMessage());
+				}
+				
+		?>
+<!--ORIGINAL HEADER-->
+<!--    <header class="masthead" style="background-image: url('img/post1-bg.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -71,45 +154,26 @@
     </header>
 
     <!-- Post Content -->
-    <article>
+<!--    <article>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <p>Look, I don't want Cortana. I don't want what are essentially ads in the tiled vomit that's referred to as a Start menu. I don't want to go through a million goddamn hoops to somehow tell you guys that I don't want you to collect my "anonymous usage" data. Plus, I'd have to pay for it. Seeing as how I already own Win7 to run all of my games, <i>I don't need your bullshit OS.</i> That's all you're used for in my case: games. It's a simple case of compatibility-to-effort ratio. Well...that, and almost every business I've ever worked at uses Windows or Office/O365 in some form. Fortunately for me, I'm not a business.</p>
-
-            <p>Oh, and SharePoint is the largest piece of garbage I've ever encountered in my life.</p>
-
-            <h2 class="section-heading">The Final Frontier</h2>
-
-            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-
-            <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-
-            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-
-            <h2 class="section-heading">A completely different post.</h2>
-
-            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. Heh, actually, that sounds pretty stupid when I say that out loud. Marbles are pretty <i>at best</i>, but not what I would call <i>beautiful</i>. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Sorry, that also sounded amazingly stupid.</p>
-
-            <a href="#">
-              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-            </a>
-            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-            <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before.</p>
-
-            <p>As I stand out here in the wonders of the unknown at Hadley('s Hope), I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest. Unless its on LV-426, then I'd rather explore literally anything else.</p>
-
+            <div class="body">
+              <?//php 
+              //echo $_row['body'];
+              //echo $article.body
+              ?>
+            </div>
+           
             <p>Placeholder text by
               <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
               <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+              
           </div>
         </div>
       </div>
     </article>
-
+-->
     <hr>
 
     <!-- Footer -->
